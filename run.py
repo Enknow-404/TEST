@@ -1,8 +1,5 @@
 import os, platform, time, sys
-try:
- import requests
 
- 
 print(' [+] Chekking Comand update')
 print('\033[1;32m') 
 os.system('  git pull')
